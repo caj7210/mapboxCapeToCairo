@@ -11,7 +11,7 @@ var config = {
     use3dTerrain: false, //set true for enabling 3D maps.
     title: 'Cape to Cairo: The Journey',
     // subtitle: 
-    byline: "An interactive map giving more detail on Lydia Pedersen's journey",
+    byline: "An interactive map giving more detail on Lydia Pederson's journey",
     // byline: 'By a Digital Storyteller',
     footer: 'Sources: <a href="https://i.pinimg.com/736x/3d/bf/c1/3dbfc11906f2334baf9667418add6cdd.jpg">1953 image of the Grand Hotel in Cape town</a> <br> <a href="https://www.kurtsafari.com/wp-content/uploads/2019/07/Fi-Kruger-park-in-the-early-days.jpg">1950s photo of Kruger National Park</a> <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
@@ -19,9 +19,9 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'The Pedersen Collection',
+            title: 'The Pederson Collection',
             image: './images/collection2.jpg',
-            description: "This collection came from a wide variety of places on Pedersen's journey across Africa. Some objects' histories are still unknown. We hope to help investigate and give context to the collection.",
+            description: "This collection came from a wide variety of places on Pederson's journey across Africa. Some objects' histories are still unknown. We hope to help investigate and give context to the collection.",
             location: {
                 center: [-1.64259, 16.40781],
                 zoom: 2.13,
@@ -51,7 +51,7 @@ var config = {
             hidden: false,
             title: 'Cape Town',
             image: 'https://i.pinimg.com/736x/3d/bf/c1/3dbfc11906f2334baf9667418add6cdd.jpg',
-            description: "In January 1953, Pedersen flew from Illinois to Cape Town, South Africa, where she stayed in the Grand Hotel. Apartheid had officially been implemented five years earlier.",
+            description: "In January 1953, Pederson flew from Illinois to Cape Town, South Africa, where she stayed in the Grand Hotel. Apartheid had officially been implemented five years earlier.",
             location: {
                 center: [18.42946, -34.12834],
                 zoom: 10.19,
@@ -76,7 +76,7 @@ var config = {
             hidden: false,
             title: 'Durban',
             image: './images/Durban.png',
-            description: 'Pedersen also visited Durban, where she visited Indian Markets. This is a frame from the color film she shot of the city. More recently, Durban helped to host the 2010 FIFA World Cup.',
+            description: 'Pederson also visited Durban, where she visited Indian Markets. This is a frame from the color film she shot of the city. More recently, Durban helped to host the 2010 FIFA World Cup.',
             location: {
                 center: [30.93548, -29.93737],
                 zoom: 10.51,
@@ -101,7 +101,7 @@ var config = {
             hidden: false,
             title: 'Kruger National Park',
             image: 'https://www.kurtsafari.com/wp-content/uploads/2019/07/Fi-Kruger-park-in-the-early-days.jpg',
-            description: 'Pedersen also visited Kruger National Park. Many 1950s tourism flyers focus on African wildlife rather than the cities or people living there; is the same true today?',
+            description: 'Pederson also visited Kruger National Park. Many 1950s tourism flyers focus on African wildlife rather than the cities or people living there; is the same true today?',
             location: {
                 center: [31.59244, -24.99254],
                 zoom: 8.02,
