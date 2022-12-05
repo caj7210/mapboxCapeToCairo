@@ -13,7 +13,7 @@ var config = {
     // subtitle: 
     byline: "An interactive map giving more detail on Lydia Pederson's journey",
     // byline: 'By a Digital Storyteller',
-    footer: 'Sources: <a href="https://i.pinimg.com/736x/3d/bf/c1/3dbfc11906f2334baf9667418add6cdd.jpg">1953 image of the Grand Hotel in Cape town</a> <br> <a href="https://www.kurtsafari.com/wp-content/uploads/2019/07/Fi-Kruger-park-in-the-early-days.jpg">1950s photo of Kruger National Park</a> <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Sources: <a href="https://i.pinimg.com/736x/3d/bf/c1/3dbfc11906f2334baf9667418add6cdd.jpg">1953 image of the Grand Hotel in Cape town</a> <br>Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
         {
             id: 'slug-style-id',
@@ -95,25 +95,7 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'fourth-identifier',
-            alignment: 'left',
-            hidden: false,
-            title: 'Kruger National Park',
-            image: 'https://www.kurtsafari.com/wp-content/uploads/2019/07/Fi-Kruger-park-in-the-early-days.jpg',
-            description: 'Pederson also visited Kruger National Park. Many 1950s tourism flyers focus on African wildlife rather than the cities or people living there; is the same true today?',
-            location: {
-                center: [31.59244, -24.99254],
-                zoom: 8.02,
-                pitch: 45.00,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+        
         {
             id: 'fifth-chapter',
             alignment: 'fully',
